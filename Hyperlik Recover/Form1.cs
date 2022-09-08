@@ -375,8 +375,8 @@ namespace Hyperlik_Recover
 
         private void MtoolsIcon_Click(object sender, EventArgs e)
         {
-            Uri = "";
-            uri
+            string UriMtool = "";
+            Uri.CheckSchemeName()
         }
     }
 }
